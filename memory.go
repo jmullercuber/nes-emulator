@@ -6,4 +6,5 @@ type MemoryMap16Bit interface {
 }
 
 type CPUMemoryMap struct {
+	// TODO: fill in
 }

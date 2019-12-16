@@ -24,5 +24,5 @@ func ProcessINES(header ROMHeader, rom_bytes []byte) {
 	// flags 10
 	// rest (11-15) usually empty padding
 
-	// output should be configured memory map
+	// TODO: output should be configured memory map
 }
