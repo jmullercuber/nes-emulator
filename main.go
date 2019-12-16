@@ -31,8 +31,9 @@ func main() {
 	var header = getHeader(rom_bytes)
 	var file_type = determineFileType(header)
 	fmt.Println("File type:", file_type)
+	fmt.Println()
 	if file_type == "iNES" {
-		// processINES(header, rom_bytes)
+		ProcessINES(header, rom_bytes)
 	} else {
 		panic("Cannot process file type: " + file_type)
 	}
