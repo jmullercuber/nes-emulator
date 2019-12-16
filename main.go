@@ -20,8 +20,8 @@ func main() {
 		panic("Unable to read ROM file")
 	}
 
-	fmt.Println(rom_bytes[:16])
-	fmt.Println(rom_bytes[16:32])
+	fmt.Printf("% x\n", rom_bytes[:16])
+	fmt.Printf("% x\n", rom_bytes[16:32])
 }
 
 func LoadBinaryFile(file_path string) ([]byte, error) {
